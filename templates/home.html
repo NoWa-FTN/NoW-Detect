@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Suricata Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <h1>Alertes Suricata</h1>
+    <hr />
+    <br />
+    <br />
+    <label for="refreshInterval">Rafraîchissement auto (secondes) :</label>
+    <input type="number" id="refreshInterval" min="1" />
+    <button id="toggleRefresh">Démarrer</button>
+    <br />
+    <br />
+    <div>
+      <button id="prevAlert">Précédent</button>
+      <span id="alertPageNum">1/1</span>
+      <button id="nextAlert">Suivant</button>
+    </div>
+    <table id="alerts">
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Src IP</th>
+          <th>Src Port</th>
+          <th>Dst IP</th>
+          <th>Dst Port</th>
+          <th>Proto</th>
+          <th>Sévérité</th>
+          <th>Action</th>
+          <th>Catégorie</th>
+          <th>Signature</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <br />
+    <div>
+      <button id="prevFlow">Précédent</button>
+      <span id="flowPageNum">1/1</span>
+      <button id="nextFlow">Suivant</button>
+    </div>
+    <table id="flows">
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Src IP</th>
+          <th>Src Port</th>
+          <th>Dst IP</th>
+          <th>Dst Port</th>
+          <th>Protocol</th>
+          <th>HTTP Method</th>
+          <th>Host</th>
+          <th>URI</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="{{ url_for('static', filename='js/fetch_data.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/refresh_data.js') }}"></script>
+  </body>
+</html>
