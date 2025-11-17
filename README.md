@@ -1,6 +1,6 @@
 # Projet NoW-Detect
 
-![Python Flask CI](https://github.com/NoWa-FTN/NoW-Detect/actions/workflows/python-app.yml/badge.svg)
+![Python Flask CI](https://github.com/NoWa-FTN/NoW-Detect/actions/workflows/main.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10-blue)
 ![Dernier commit](https://img.shields.io/github/last-commit/NoWa-FTN/NoW-Detect)
