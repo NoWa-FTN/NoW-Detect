@@ -113,7 +113,6 @@ document.getElementById("nextFlow").addEventListener("click", () => {
   if (currentFlowPage < totalFlowPages) loadFlowPage(currentFlowPage + 1);
 });
 
-// Au démarrage
 loadAlertPage();
 loadFlowPage();
 
