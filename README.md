@@ -1,5 +1,10 @@
 # Projet NoW-Detect
 
+![Python Flask CI](https://github.com/NoWa-FTN/NoW-Detect/actions/workflows/python-app.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python Version](https://img.shields.io/badge/python-3.10-blue)
+![Dernier commit](https://img.shields.io/github/last-commit/NoWa-FTN/NoW-Detect)
+
 ## À propos
 
 Ce projet consiste à créer une solution IDS/IPS basée sur Suricata, avec une interface web développée en Python (Flask), HTML, CSS et JavaScript pour visualiser les alertes et le trafic réseau en temps réel.
