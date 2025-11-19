@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -169,11 +169,10 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
   background-color: #d5e8fc;
   cursor: pointer;
-  transform: scale(1.03);
   box-shadow: 0 10px 25px rgba(52, 73, 94, 0.2);
   position: relative;
   z-index: 1;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Responsive adaptation */

@@ -15,11 +15,6 @@
     <button id="toggleRefresh">Démarrer</button>
     <br />
     <br />
-    <div>
-      <button id="prevAlert">Précédent</button>
-      <span id="alertPageNum">1/1</span>
-      <button id="nextAlert">Suivant</button>
-    </div>
     <table id="alerts">
       <thead>
         <tr>
@@ -37,12 +32,12 @@
       </thead>
       <tbody></tbody>
     </table>
-    <br />
     <div>
-      <button id="prevFlow">Précédent</button>
-      <span id="flowPageNum">1/1</span>
-      <button id="nextFlow">Suivant</button>
+      <button id="prevAlert">Précédent</button>
+      <span id="alertPageNum">1/1</span>
+      <button id="nextAlert">Suivant</button>
     </div>
+    <br />
     <table id="flows">
       <thead>
         <tr>
@@ -60,6 +55,11 @@
       </thead>
       <tbody></tbody>
     </table>
+    <div>
+      <button id="prevFlow">Précédent</button>
+      <span id="flowPageNum">1/1</span>
+      <button id="nextFlow">Suivant</button>
+    </div>
 
     <script src="{{ url_for('static', filename='js/fetch_data.js') }}"></script>
     <script src="{{ url_for('static', filename='js/refresh_data.js') }}"></script>
